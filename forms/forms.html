@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="signup.html" method="get" enctype="multipart/form-data">
+      <div>
+        <label for="Username">User Name</label>
+        <input
+          type="text"
+          name="Username"
+          id="Username"
+          value="Sai"
+          maxlength="8"
+          required
+        />
+      </div>
+      <div>
+        <label for="Password">Password</label>
+        <input
+          type="password"
+          name="Password"
+          id="Password"
+          minlength="8"
+          required
+        />
+      </div>
+      <div>
+        <label for="YearofBirth">Year Of Birth</label>
+        <input
+          type="number"
+          name="YearofBirth"
+          id="YearofBirth"
+          maxlength="4"
+          min="1990"
+          max="2023"
+        />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date" min="1990-01-01" />
+      </div>
+      <div>
+        <label for="about">About</label>
+        <textarea name="about" id="about">About me..</textarea>
+      </div>
+      <div>
+        <input type="checkbox" name="SMS alert" id="SMS alert" />
+        <label for="SMS alert">SMS alert</label>
+      </div>
+      <div>
+        <input type="radio" name="gender" id="Male" value="Male" />
+        <label for="Male">Male</label>
+      </div>
+      <div>
+        <input type="radio" name="gender" id="Female" value="Female" />
+        <label for="Female">Female</label>
+      </div>
+      <div>
+        <label for="State">Select State</label>
+        <select name="State" id="State">
+          <option value="Tamilnadu">Tamilnadu</option>
+          <option value="AP">Andhra Pradhesh</option>
+          <option value="Bihar">Bihar</option>
+        </select>
+      </div>
+      <div>
+        <label for="file">Resume</label>
+        <input type="file" name="file" id="file" />
+      </div>
+      <button type="submit">Sign Up</button>
+      <button type="reset">Reset</button>
+      <div>
+        <input type="image" src="download.jpg" width="50" height="50" />
+      </div>
+      <br />
+      <br />
+      <div>
+        <!-- <label for="Username">User Name</label> -->
+        <input
+          type="text"
+          name="Username"
+          id="Username"
+          placeholder="Username"
+        />
+      </div>
+      <div>
+        <!-- <label for="Password">Password</label> -->
+        <input
+          type="password"
+          name="Password"
+          id="Password"
+          placeholder="Password"
+        />
+      </div>
+      <button type="submit">Sign Up</button>
+    </form>
+  </body>
+</html>
