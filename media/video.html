@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video</title>
+  </head>
+  <body>
+    <div>
+      <h1>Video</h1>
+      <video src="video.mp4" controls width="300" height="300"></video>
+    </div>
+    <div>
+      <h1>Multiple video Format</h1>
+      <video controls width="300" height="300">
+        <source src="video.mp4" type="video/mp4" />
+        <p>Video Format not supported by your browser</p>
+      </video>
+    </div>
+    <div>
+      <h1>Youtube Link</h1>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/UvR5UvQSXnY?si=XbvJru_tWdfoPWch"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
+</html>
+
+<!--
+<video src="" loop preload="" poster="">poster is a link for image like thumbnail</video>
+<video src="" muted>Video muted</video>
+Audio details are the same for video
+-->

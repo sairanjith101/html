@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio</title>
+  </head>
+  <body>
+    <div>
+      <h1>Audio</h1>
+      <audio src="audio2.mp3" controls loop preload="auto">
+        <p>Audio Format Error</p>
+      </audio>
+    </div>
+    <div>
+      <h1>Multiple Source File</h1>
+      <audio controls loop preload="auto">
+        <source src="audio2.mp3" type="audio/mp3" />
+        <source src="audio3.mp3" type="audio/mp3" />
+        <source src="audio.mpeg" type="audio/mpeg" />
+        <p>Audio Format Error</p>
+      </audio>
+    </div>
+  </body>
+</html>
+
+<!--
+<audio src="" autoplay>Autoplay</audio>
+<audio src="" preload="auto">when page load automaticaly song ready for play</audio>
+<audio src="" preload="metadata">audio deatils only show than manualy play</audio>
+<audio src="" preload="none">audio details not show, then get audio details and then play</audio>
+-->
