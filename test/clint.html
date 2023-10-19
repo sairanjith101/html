@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clint</title>
+  </head>
+  <body>
+    <form action="user.html" method="get">
+      <div>
+        <label for="username">User Name</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="username"
+          value="Sai"
+          required
+        />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+          required
+          minlength="8"
+        />
+      </div>
+      <div>
+        <label for="YearofBirth">YearofBirth</label>
+        <input
+          type="number"
+          name="YearofBirth"
+          id="YearofBirth"
+          maxlength="4"
+          min="1990"
+          max="2023"
+          required
+        />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+        required
+      </div>
+      <div>
+        <label for="date">Date of Birth</label>
+        <input
+          type="date"
+          name="date"
+          id="date"
+          min="1990-01-01"
+          max="2023-10-18"
+          required
+        />
+      </div>
+      <div>
+        <label for="about">About</label>
+        <textarea type="about" name="about" id="about">About me..</textarea>
+      </div>
+      <div>
+        <input type="checkbox" name="SMS alert" id="SMS alert" />
+        <label for="SMS alert">SMS alert</label>
+        required
+      </div>
+      <div>
+        <input type="radio" name="gender" id="Male" value="male" />
+        <label for="male">Male</label>
+      </div>
+      <div>
+        <input type="radio" name="gender" id="Female" value="Female" />
+        <label for="Female">Female</label>
+      </div>
+      <div>
+        <select name="state" id="state">
+          State
+        </select>
+        <label for="state">Select state</label>
+      </div>
+      <div></div>
+      <button type="submit">Sign In</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
